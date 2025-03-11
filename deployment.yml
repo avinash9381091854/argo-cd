@@ -14,7 +14,7 @@ spec:
         app: swiggy
     spec:
       containers:
-        - name: comt-1
-          image: shaikmustafa/mytetrisgame:v2
+        - name: cont-1
+          image: avinash8179/my-tetris:v1
           ports:
           - containerPort: 3000
