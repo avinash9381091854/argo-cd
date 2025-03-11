@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flm
+  name: green
 spec:
   replicas: 4
   selector:
@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: swiggy
+        app: zomato
     spec:
       containers:
         - name: cont-1
