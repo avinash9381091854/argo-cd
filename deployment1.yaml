@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: avinash8179/mytetrisgame:v2
+          image: avinash8179/mytetrisgame:v1
           ports:
           - containerPort: 3000
